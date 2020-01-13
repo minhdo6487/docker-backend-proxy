@@ -1,0 +1,5 @@
+Django==2.2.0
+mysqlclient
+python-dotenv
+psycopg2
+gunicorn==19.9.0

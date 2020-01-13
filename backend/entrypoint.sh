@@ -1,0 +1,1 @@
+python /code/collectstatic.py && gunicorn docker_proxy_backend.wsgi -c /code/gunicorn_config.py
