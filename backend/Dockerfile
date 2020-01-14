@@ -28,6 +28,7 @@ RUN chmod -R a+rw /data
 RUN chmod -R a+rw /static
 
 ADD entrypoint.sh /
+RUN chmod +x /entrypoint.sh
 
 ENV PYTHONUNBUFFERED 1
 WORKDIR /code/
